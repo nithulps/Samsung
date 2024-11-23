@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smartphone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fontawosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-black fixed-top">
+        <div id="nav" class="container-fluid row-xs-1">
+            <a class="navbar-brand ms-xs-1 ms-5 fw-bold " href="#">SAMSUNG</a>
+            <div id="menu" class="d-flex justify-content-evenly flex-row  me-5">
+                <li class="text-light me-2">Home</li>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        collections
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <!--  -->
+                <li class="text-light me-2">Shop</li>
+                <li class="text-light me-2">Android</li>
+                <li class="text-light me-2">Accessories</li>
+                <li class="text-light me-2">Memory&Storage</li>
+                <li><i class="fa-solid  fa-user ms-5"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid  fa-magnifying-glass "></i></li>
+            </div>
+            <button id="menuicon" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Android</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Memory&Storage</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- LandingPage -->
+    <div class="container mt-5 ">
+        <div class="row border-bottom" id="img1">
+            <div class="col-lg-6 align-content-center">
+                <img src="https://images.samsung.com/in/smartphones/galaxy-z-flip6/buy/product_color_white_MO_v2.png"
+                    class="img-fluid position-relative  " alt="...">
+            </div>
+            <div class="col-lg-6 text-center align-content-center">
+                <li class="Hometext fw-bold ">Galaxy Z Fold6 | Z Flip6</li>
+                <li class="mb-2">Unfold the future with the Samsung Galaxy Z Fold6, a sleek, cutting-edge foldable
+                    phone featuring dynamic displays, AI-powered tools, and unrivaled performance for a seamless mobile
+                    experience.</li>
+                <button type="button" class="btn bg-black text-light fw-bold ">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+    <!-- screen2 -->
+    <div class="container-fluid  ">
+        <div class="row border p-5 mt-md-5 bg-body-secondary  text-center">
+            <div class="col-lg-4 col-md-mt-5  d-flex align-items-center justify-content-center ">
+                <i class="fa-solid fa-truck-fast fs-1 m-3"></i>
+                <div>
+                    <h4>Free Shipping</h4>
+                    <li>For orders over $50</li>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-mt-5  d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-tag text-dark  fs-1 m-3"></i>
+
+                <div>
+                    <h4>Official Discounts</h4>
+                    <li>Save Big on next product</li>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md- d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-headset fs-1 m-3"></i>
+                <div>
+                    <h4>24/7 Helpline</h4>
+                    <li>Care till the end</li>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center pt-5">
+            <h1 class="fw-semibold">WHAT MAKES THE ESSENTIAL DIFFERENT?</h1>
+            <h4 class="text-secondary">EXPERIENCE HIGH PERFORMANCE AND SECURE</h4>
+        </div>
+        <div class="row mt-3 text-center     ">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./ic12.webp" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold">PERFECT CUT</h6>
+                        <h3 class="card-title fw-bolder">DUAL CAMERA</h3>
+                        <p class="card-text fw-semibold text-secondary">Tristique senectus et netus et malesuada ant
+                            reiet fames.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center col-md-6">
+                <div>
+                    <div class="card border-0 " style="width: 18rem;">
+                        <img src="./ic13.avif" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">PRETTY</h6>
+                            <h3 class="card-title fw-bolder">SMART COMPUTING</h3>
+                            <p class="card-text fw-semibold text-secondary">Consequat ac habit amet asse felis donec et
+                                odio pellentesque diam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./ic11.webp" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold">MOST POPULAR</h6>
+                        <h3 class="card-title fw-bolder">8GB DDR5 RAM</h3>
+                        <p class="card-text fw-semibold text-secondary">Dictum varius duis at consectetur lorem donec
+                            massa sap faucibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SCREEN3 -->
+    <div class="container-fluid mb-5 pb-5">
+        <div class="col-12 text-center mt-5">
+            <h1 class="fw-semibold">FIND YOUR PERFECT MATCH</h1>
+            <h5 class="text-secondary">EXPLORE AND FIND RIGHT ONE</h5>
+            <div class="container-fluid ">
+                <img class="img-fluid pt-5 pe-0" src="./img3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- screen4 -->
+    <div class="text-center pb-4 ">
+        <h1 class="fw-semibold  mt-5">LOSE YOURSELF IN ENTERTAINMENT</h1>
+        <h5 class="text-secondary">SPEND LESS ENJOY MORE</h5>
+        <img class="img-fluid" src="./samsung spec.jpg" alt="">
+        <div class="d-flex justify-content-around">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="row text-center  mb-3">
+            <div class="col-md-4 d-flex p-0 justify-content-center">
+                <div class="card  mb-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mt-3">SUPER AMOLED DISPLAY</h5>
+                        <p class="card-text">Urna neque viverra justo nec ultrices dui sapien eget mi. Sed elementum
+                            tempus egestas sed sed risus pretium quam vulputate. Neque sodales ut etiam.</p>
+                        <a href="#" class="btn bg-black text-light fw-semibold">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex p-0 justify-content-center">
+                <div class="card  mb-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mt-3">TRIPLE CAMERA</h5>
+                        <p class="card-text">Duis at tellus at urna condimentum mattis pellentesque id nibh. Elit
+                            scelerisque mauris pellentesque pulvinar. Nunc aliquet bibendum enim facilisis gravida.</p>
+                        <a href="#" class="btn bg-black text-light fw-semibold mb">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex p-0 justify-content-center">
+                <div class="card  mb-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mt-3">ULTRA GAME MODE</h5>
+                        <p class="card-text">Urna et pharetra pharetra massa massa ultricies mi. Scelerisque varius
+                            morbi enim nunc faucibus a pellentesque. Purus sit amet volutpat consequat mauris.</p>
+                        <a href="#" class="btn bg-black text-light fw-semibold">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- screen5 -->
+    <div class="bgimg  d-flex justify-content-center flex-column ">
+        <h5 class="text-secondary">JENNIFER F., CASPER CUSTOMER</h5>
+        <h1 class="fw-bold">"Unbeatable price, and it’s super </h1>
+        <h1 class="fw-bold">comfortable"</h1>
+        <button type="button" class="btn btn-light text-black fw-bold ">view More</button>
+    </div>
+    <!-- screen6 -->
+    <div id="scrn5" class="container   text-center mt-5 mb-3">
+        <h1 class="fw-semibold">RAISE YOUR EXPECTATIONS</h1>
+        <h5 class="text-secondary">REFINED VIEWING EXPERIENCE</h5>
+        <div class="row mt-5 mb-5">
+            <div id="scrn5-p" class="col-md-6 p-5 mt-3">
+                <h2 class="fw-semibold">42 FRONT CAMERA FOR PERFECT SHOT</h2>
+                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui official.
+                    <br><br>
+                    Diam vulputate ut pharetra sit. Elit ut aliquam purus sit amet luctus venenatis lectus. Lorem dolor
+                    sed viverra ipsum nunc aliquet. Ut consequat semper viverra nam libero. Velit ut tortor aremn.
+                </p>
+            </div>
+            <div class="col-md-6 mt-5 mb-5">
+                <img class="img-fluid" src="./camera.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footerbg">
+        <div class="container">
+            <div class="row ">
+                <div class="col-3"></div>
+                <div class="col-6 mt-5 text-center d-flex justify-content-center flex-column align-items-center">
+                    <h5>SUBSCRIBE NOW</h5>
+                    <h1>GET OUR UPDATES ALWAYS FAST</h1>
+                    <h5>YOUR PERSONAL DATA WILL ALWAYS BE SAFE</h5>
+                    <input type="email" class="form-control w-50 m-3" id="exampleInputEmail1" placeholder="email"
+                        aria-describedby="emailHelp">
+                    <li class="mt-3 mb-5">
+                        <span class="p-2">Search </span>
+                        <span class="p-2">Help </span>
+                        <span class="p-2"> Information </span>
+                        <span class="p-2">Privacy Policy </span>
+                    </li>
+
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- <div class="container mt-5">
+        <div class="col-12 text-center">
+            <h1>POSSIBILITIES. PERFORMANCE. POWER.</h1>
+            <h5>FASTER PROCESSING WITH LESS POWER</h5>
+            <img class="img-fluid" src="./samsung spec.jpg" alt="">
+            <div class="d-flex justify-content-around">
+                <div id="line"></div>
+                <div class="line"></div>
+                <div id="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div> -->
